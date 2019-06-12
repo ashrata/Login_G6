@@ -16,6 +16,8 @@ public class guest1 extends AppInitialize
 	{
 	PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
+	@AndroidFindBy(id="com.my6.android.debug:id/btn_sign_up")
+	WebElement signup1;
 	
 	@AndroidFindBy(id="com.my6.android.debug:id/username")
 	WebElement emailidguest;
@@ -52,6 +54,11 @@ public class guest1 extends AppInitialize
 	
 	@AndroidFindBy(id="com.my6.android.debug:id/btn_sign_up")
 	WebElement signup;
+	
+	public WebElement signup1()
+	{
+		return signup1;
+	}
 	
 	public WebElement emailidguest()
 	{

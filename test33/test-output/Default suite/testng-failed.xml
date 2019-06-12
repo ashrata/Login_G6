@@ -6,7 +6,7 @@
       <class name="com.my6.testcases.Testrunner">
         <methods>
           <include name="setup"/>
-          <include name="login"/>
+          <include name="guest"/>
         </methods>
       </class> <!-- com.my6.testcases.Testrunner -->
     </classes>
